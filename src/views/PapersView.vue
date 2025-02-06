@@ -16,15 +16,15 @@
     <ul class="list">
       <li class="item">
         <span class="label">Submission deadline:</span>
-        <span class="value strong">TBD</span>
+        <span class="value strong">March 31st, 2025 (AoE)</span>
       </li>
       <li class="item">
         <span class="label">Notification deadline:</span>
-        <span class="value strong">TBD</span>
+        <span class="value strong">April 30th, 2025 (AoE)</span>
       </li>
       <li class="item">
         <span class="label">Camera-ready deadline:</span>
-        <span class="value strong">TBD</span>
+        <span class="value strong">May 10th, 2025 (AoE)</span>
       </li>
     </ul>
 
@@ -52,7 +52,7 @@
 
     <div class="title2 section-title">Paper Submission</div>
     <p class="pa-header p">Papers are submitted via EasyChair at the following URL: TBD</p>
-    <p class="pa-content p">If you have any further questions, contact us via <mark>issre_wdmd@163.com</mark>.</p>
+    <p class="pa-content p">If you have any further questions, contact us via <mark>wdmd2012@163.com</mark>.</p>
   </div>
 </template>
 

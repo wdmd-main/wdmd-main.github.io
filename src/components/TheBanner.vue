@@ -28,7 +28,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/2025/t-selin-erkan-2.jpg') no-repeat center / cover;
+    background: url('@/assets/image/t-selin-erkan-1.jpg') no-repeat center / cover;
 
     &::before {
       content: '';
