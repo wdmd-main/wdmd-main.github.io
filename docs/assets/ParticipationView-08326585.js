@@ -1,0 +1,1 @@
+import{_ as c,o as e,c as t}from"./index-2c437f85.js";const _={},o={class:"participation"};function a(i,n){return e(),t("div",o," TBD ")}const r=c(_,[["render",a],["__scopeId","data-v-cc4f4850"]]);export{r as default};
