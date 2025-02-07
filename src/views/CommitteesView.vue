@@ -1,6 +1,22 @@
 <template>
   <div class="committees">
-    TBD
+    <div class="title1 font-merri">Organizing Committee</div>
+    <div class="title2 section-title">Program Co-Chairs</div>
+    <p class="pa-header p">Joseph Sifakis, Verimag, Université Grenoble Alpes, France</p>
+    <p class="pa-content p">Zheng Zheng, Beihang University, China</p>
+    <p class="pa-content p">Jianwen Xiang, Wuhan University of Technology, China</p>
+    <p class="pa-content p">Lei Ma, The University of Tokyo, Japan</p>
+
+    <div class="title2 section-title">Program Committee</div>
+    <p class="pa-header p">Shenglin Zhang, Nankai University, China</p>
+    <p class="pa-content p">Haojun Huang, Huazhong University of Science and Technology, China</p>
+    <p class="pa-content p">Min Zhang, East China Normal University, China</p>
+    <p class="pa-content p">Dehui Du, East China Normal University, China</p>
+    <p class="pa-content p">Liyan Song, Southern University of Science and Technology, China</p>
+
+    <div class="title2 section-title">Contact Us</div>
+    <p class="pa-header p"><mark>wdmd2012@163.com</mark></p>
+    <p class="pa-content p">For all questions regarding paper process, submissions, or the technical program.</p>
   </div>
 </template>
 
