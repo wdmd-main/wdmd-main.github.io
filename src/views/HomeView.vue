@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <div class="title1 font-merri">WDMD 2025 (Workshop on Dependability Modeling and Digitalization)</div>
-    <p class="pa pa-header p">"Dependability Modeling and Digitalization" refers to the interaction between business needs and dependability technologies, utilizing the support and capabilities provided by information technology.</p>
     <p class="pa pa-content p">As critical systems such as large high-performance computing cluster for Large Language Model (LLM) training and inference, industrial control systems, automobiles, and robots increasing in complexity, ensuring reliability, safety, and other dependability aspects like robustness, integrity, maintainability, and accountability has become a significant challenge for designers, manufacturers, owners, and operators.</p>
     <p class="pa pa-content p">To address these challenges, advanced technologies, appropriate methodologies, powerful modeling languages and tools, and a shared conceptualization of dependability modeling and digitalization are essential. The WDMD aims to bring together researchers and practitioners to exchange and discuss cutting-edge research and practical applications in the field of dependability modeling and digitalization. This year, the workshop will focus on several key topics: conceptual models for dependability, digitalization in dependability design, software dependability, reliability for large-scale computing systems, reliability and safety of autonomous driving.</p>
 
