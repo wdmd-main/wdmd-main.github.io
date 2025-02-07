@@ -3,7 +3,7 @@
     <div class="background"></div>
     <div class="text">
       <h2 class="title font-lato">WDMD 2025: 4th International Workshop on </h2>
-      <h2 class="title font-lato">Dependability Modeling and Design</h2>
+      <h2 class="title font-lato">Dependability Modeling and Digitalization</h2>
       <div class="subtitle">Co-located with <a href="https://dsn2025.github.io/index.html" target="_blank">DSN 2025</a></div>
       <div class="tip font-merri">Naples, Italy, June 25, 2025</div>
     </div>

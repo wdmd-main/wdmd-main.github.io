@@ -1,6 +1,6 @@
 <template>
   <div class="papers">
-    <p class="pa-header p">The WDMD 2025 workshop invites researches and practitioners to submit original research contributions on dependability modeling and design. All the accepted papers will be included in the IEEE Xplore Digital Library.</p>
+    <p class="pa-header p">The WDMD 2025 workshop invites researches and practitioners to submit original research contributions on dependability modeling and digitalization. All the accepted papers will be included in the IEEE Xplore Digital Library.</p>
 
     <div class="title2 section-title">Topics of Interest</div>
     <p class="pa-header p">Topics of the workshop include but are not limited to:</p>
