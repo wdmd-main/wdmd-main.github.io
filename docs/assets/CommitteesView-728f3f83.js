@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as _}from"./index-2c437f85.js";const c={},s={class:"committees"};function o(n,a){return t(),_("div",s," TBD ")}const i=e(c,[["render",o],["__scopeId","data-v-c699bbd1"]]);export{i as default};
