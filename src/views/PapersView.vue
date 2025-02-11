@@ -1,6 +1,6 @@
 <template>
   <div class="papers">
-    <p class="pa-header p">The WDMD 2025 workshop invites researches and practitioners to submit original research contributions on dependability modeling and digitalization. All the accepted papers will be included in the IEEE Xplore Digital Library.</p>
+    <p class="pa-header p">The WDMD 2025 workshop invites researches and practitioners to submit original research contributions on dependability modeling and digitalization. All the accepted papers will be included in the DSN supplemental volume and the IEEE Xplore Digital Library.</p>
 
     <div class="title2 section-title">Topics of Interest</div>
     <p class="pa-header p">Topics of the workshop include but are not limited to:</p>
@@ -51,8 +51,19 @@
     </ul>
 
     <div class="title2 section-title">Paper Submission</div>
-    <p class="pa-header p">Papers are submitted via EasyChair at the following URL: TBD</p>
-    <p class="pa-content p">If you have any further questions, contact us via <mark>wdmd2012@163.com</mark>.</p>
+    <div class="submission">
+      <div>
+        <p class="pa-header p">Submisussions can be made on EasyChair at the following link:</p>
+        <p class="pa-content p flex">
+          <span class="sq"></span>
+          <a href="https://easychair.org/my/conference?conf=dsnw2025" target="_blank">https://easychair.org/my/conference?conf=dsnw2025</a>
+        </p>
+        <p class="pa-content p">When clicking on "make a new submission" you will be redirected to a page where you can select our "Workshop on Dependability Modelling and Digitalization" workshop, as in the image --></p>
+        <p class="pa-content p">If you have any further questions, contact us via <mark>wdmd2012@163.com</mark>.</p>
+      </div>
+
+      <img class="submission-img" src="@/assets/image/easy_chair_radio.png" />
+    </div>
   </div>
 </template>
 
@@ -124,6 +135,28 @@ const list2 = [
       .del {
         text-decoration: line-through;
       }
+    }
+  }
+
+  .submission {
+    display: flex;
+    gap: 24px;
+
+    .flex {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .sq {
+        display: block;
+        width: 6px;
+        height: 6px;
+        background-color: #000;
+      }
+    }
+
+    .submission-img {
+      width: 320px;
     }
   }
 }

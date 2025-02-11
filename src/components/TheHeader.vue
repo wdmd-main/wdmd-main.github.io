@@ -12,7 +12,7 @@
         <el-menu-item index="/program">PROGRAM</el-menu-item>
         <el-menu-item index="/papers">CALL FOR PAPERS</el-menu-item>
         <el-menu-item>
-          SUBMISSION
+          <el-link class="link" href="https://easychair.org/my/conference?conf=dsnw2025" target="_blank" :underline="false">SUBMISSION</el-link>
         </el-menu-item>
         <el-menu-item index="/participation">CALL FOR PARTICIPATION</el-menu-item>
         <el-menu-item index="/keynotes">KEYNOTES</el-menu-item>
