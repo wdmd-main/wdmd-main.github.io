@@ -61,13 +61,21 @@
         <p class="pa-content p">When clicking on "make a new submission" you will be redirected to a page where you can select our "Workshop on Dependability Modelling and Digitalization" workshop, as in the image --></p>
         <p class="pa-content p">If you have any further questions, contact us via <mark>wdmd2012@163.com</mark>.</p>
       </div>
-
-      <img class="submission-img" src="@/assets/image/easy_chair_radio.png" />
+      <el-image
+        class="submission-img"
+        :src="img1"
+        :zoom-rate="1.2"
+        :max-scale="7"
+        :min-scale="0.2"
+        :preview-src-list="srcList"
+      />
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+import img1 from '@/assets/image/easy_chair_radio.png'
+
 const list1 = [
   'Dependability concept model',
   'The ontology of dependability and its applications',
@@ -95,6 +103,8 @@ const list2 = [
   'Full papers: 6 pages (including references)',
   'Short papers: 2 pages (including references)'
 ]
+
+const srcList = [img1]
 </script>
 
 <style lang="less" scoped>
@@ -157,6 +167,7 @@ const list2 = [
 
     .submission-img {
       width: 320px;
+      flex-shrink: 0;
     }
   }
 }
