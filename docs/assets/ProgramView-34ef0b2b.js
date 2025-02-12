@@ -1,0 +1,1 @@
+import{d as e,o as _,c as o,_ as a}from"./index-f4b25f4a.js";const s={class:"program"},t=e({__name:"ProgramView",setup(r){return(c,n)=>(_(),o("div",s," TBD "))}});const m=a(t,[["__scopeId","data-v-28766a54"]]);export{m as default};
