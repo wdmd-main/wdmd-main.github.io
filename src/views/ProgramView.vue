@@ -1,6 +1,16 @@
 <template>
   <div class="program">
-    TBD
+    <el-table
+      :data="tableData"
+      border
+      style="width: 100%;"
+      header-cell-class-name="header"
+      :cell-class-name="cellClassName"
+    >
+      <el-table-column prop="time" label="Time" header-align="center" width="140px" />
+      <el-table-column prop="topic" label="Topic" header-align="center" />
+      <el-table-column prop="speaker" label="Speaker" header-align="center" width="280px" />
+    </el-table>
   </div>
 </template>
 
@@ -21,30 +31,37 @@ interface MethodProps {
 }
 
 const tableData: Data[] = [
-  { time: '9:20-9:30', speaker: 'Joseph Sifakis', topic: 'Opening: Risk Assessment of AI Systems' },
-  { time: '', speaker: '', topic: 'Session One--Invited Talks: Reliability and Functional Safty for Autonomous Driving Systems' },
-  { time: '9:30-10:10', speaker: 'Yuxiang Sun', topic: 'Keynote 1: AI-powered Safe and Reliable Autonomous Navigation for Self-Driving Vehicles' },
-  { time: '10:10-10:50', speaker: 'Yanlei Gu', topic: 'Keynote 2: Autonomous Driving in the Urban City Environment' },
-  { time: '10:50-11:05', speaker: '', topic: 'Coffe Break' },
-  { time: '', speaker: '', topic: `Session Two --- Paper session: Reliability Modelling and It's Application` },
-  { time: '11:05-11:15', speaker: 'Feng Liu, Zifan Zeng, Chongzhe Zhang, Joseph Sifakis, Qunli Zhang, Shiming Liu and Peng Wang.', topic: 'World Models: The Safety Perspective' },
-  { time: '11:15-11:25', speaker: 'Irfan Sljivo, Pavlo Vlastos, Corey Carter and Aaron Woodard.', topic: 'Developing a Dependable Multi-Agent Rover Swarm Using cFS' },
-  { time: '11:25-11:35', speaker: 'Chuqi Guo, Yu Lin, Ling Dong, Zhijie Feng, Luyao Ye, Wenhua Hu, Siwei Zhou and Jianwen Xiang', topic: 'Reliability Analysis of Man-Machine Systems Considering Imperfect Error Coverage Model' },
-  { time: '11:35 -11:45', speaker: 'Lizhi Zhang, Jingwei Fu, Yan He and Xiaobin Jiang.', topic: 'Toward Deterministic Wireless Communication: Latency Prediction Using Network Measurement Data' },
-  { time: '11:45-11:55', speaker: 'Ning Lu, Qian Xie, Hao Zhang, Wenyi Fang, Yang Zheng, Zheng Hu and Jiantao Ma', topic: 'A Practical Reliability Metric for Large Language Model Training Systems' },
-  { time: '', speaker: '', topic: `Session Three --- Invited Talks: Reliablity and Modelling Technogies for AI Systems ` },
-  { time: '13:40-14:20', speaker: 'Guanpeng Li', topic: 'Keynote 3: Towards building fault-tolerant and compression-accelerated HPC systems' },
-  { time: '14:20-15:00', speaker: 'Mohamed Wahib', topic: 'Keynote 4: Parallelism in LLMs: Beyond Data, Tensor, and Pipeline Parallelism' },
-  { time: '15:00-15:15', speaker: '', topic: 'Coffe Break' },
-  { time: '15:15-15:55', speaker: 'Xing Pan', topic: 'Keynote 5: Reliability Analysis and Evaluation of Computing Network' },
-  { time: '15:55-16:40', speaker: '', topic: 'Panel: Reliability Technologies for AI training/Inference Systems (Panel: Chair Zheng zhen)' },
-  { time: '16:40---', speaker: '', topic: 'Ending' },
+  { time: '9:00-9:10', speaker: '', topic: 'Opening' },
+  { time: '9:10-9:40', speaker: 'TBD', topic: 'Keynote 1' },
+  { time: '9:40-10:10', speaker: 'Yuxuan Liang', topic: 'Keynote 2' },
+  { time: '10:10-10:30', speaker: '', topic: 'Coffe Break' },
+  { time: '10:30-11:00', speaker: 'Ahmed M. A. Sayed', topic: 'Keynote 3' },
+  { time: '11:00-11:30', speaker: 'Zheng Yang', topic: 'Keynote 4' },
+  { time: '11:30-12:00', speaker: '', topic: `Panel: How LLM Change the Nature of Reliability Engineering` },
+  { time: '12:00-14:00', speaker: '', topic: 'Lunch Break' },
+  { time: '', speaker: '', topic: 'Phd Session' },
+  { time: '14:00-14:15', speaker: 'Yunpu Ma', topic: 'Recent Advances in Agentic AI' },
+  { time: '14:15-14:30', speaker: 'Yong Cao', topic: 'Cultural Reliability of LLMs: Can AI Truly Reflect Global Perspectives?' },
+  { time: '14:30-14:45', speaker: 'Saibo Geng', topic: 'Generating Structured Outputs with Language Models: Evaluation and Studies' },
+  { time: '14:45-15:00', speaker: 'Beiduo Chen', topic: `Understanding and Modeling Human Label Variation in LLM` },
+  { time: '15:00-15:15', speaker: 'TBD', topic: 'TBD' },
+  { time: '15:15-15:30', speaker: 'TBD', topic: 'TBD' },
+  { time: '15:30-15:40', speaker: '', topic: 'Coffe Break' },
+  { time: '15:40-15:50', speaker: 'TBD', topic: 'TBD' },
+  { time: '15:50-16:00', speaker: 'TBD', topic: 'TBD' },
+  { time: '16:00-16:10', speaker: 'TBD', topic: 'TBD' },
+  { time: '16:10-16:20', speaker: 'TBD', topic: 'TBD' },
+  { time: '16:20-16:30', speaker: 'TBD', topic: 'TBD' },
+  { time: '16:30-16:40', speaker: 'TBD', topic: 'TBD' },
+  { time: '16:40-16:50', speaker: 'TBD', topic: 'TBD' },
+  { time: '16:50-17:00', speaker: 'TBD', topic: 'TBD' },
+  { time: '17:00---', speaker: '', topic: 'Ending' },
 ]
 
 const cellClassName = ({ rowIndex }: MethodProps) => {
-  if (rowIndex === 1 || rowIndex === 5 || rowIndex === 11) {
+  if (rowIndex === 8) {
     return 'title'
-  } else if (rowIndex === 4 || rowIndex === 14) {
+  } else if (rowIndex === 3 || rowIndex === 7 || rowIndex === 15 || rowIndex === 24) {
     return 'rest'
   }
 }

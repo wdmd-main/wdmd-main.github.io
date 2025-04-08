@@ -16,7 +16,7 @@
     <ul class="list">
       <li class="item">
         <span class="label">Submission deadline:</span>
-        <span class="value strong">March 31st, 2025 (AoE)</span>
+        <span class="value strong">April 20th, 2025 (AoE)</span>
       </li>
       <li class="item">
         <span class="label">Notification deadline:</span>
