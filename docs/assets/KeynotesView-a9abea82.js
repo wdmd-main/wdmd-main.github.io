@@ -1,1 +1,0 @@
-import{_ as e,o as _,c as s}from"./index-f4b25f4a.js";const t={},o={class:"keynote-speakers"};function c(n,a){return _(),s("div",o," TBD ")}const d=e(t,[["render",c],["__scopeId","data-v-d020483e"]]);export{d as default};
