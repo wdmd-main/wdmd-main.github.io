@@ -32,10 +32,11 @@ interface MethodProps {
 
 const tableData: Data[] = [
   { time: '9:00-9:10', speaker: '', topic: 'Opening' },
+  { time: '', speaker: '', topic: 'Keynote Session' },
   { time: '9:10-9:40', speaker: 'TBD', topic: 'Keynote 1' },
-  { time: '9:40-10:10', speaker: 'Yuxuan Liang', topic: 'Keynote 2' },
+  { time: '9:40-10:10', speaker: 'Yuxuan Liang', topic: 'Keynote 2: Foundation Models for Spatio-Temporal Data Mining' },
   { time: '10:10-10:30', speaker: '', topic: 'Coffe Break' },
-  { time: '10:30-11:00', speaker: 'Ahmed M. A. Sayed', topic: 'Keynote 3' },
+  { time: '10:30-11:00', speaker: 'Ahmed M. A. Sayed', topic: 'Keynote 3: Advancing Decentralized AI: Scalable, Adaptive, and Client-Centric Learning Systems' },
   { time: '11:00-11:30', speaker: 'Zheng Yang', topic: 'Keynote 4' },
   { time: '11:30-12:00', speaker: '', topic: `Panel: How LLM Change the Nature of Reliability Engineering` },
   { time: '12:00-14:00', speaker: '', topic: 'Lunch Break' },
@@ -59,9 +60,9 @@ const tableData: Data[] = [
 ]
 
 const cellClassName = ({ rowIndex }: MethodProps) => {
-  if (rowIndex === 8) {
+  if (rowIndex === 1 || rowIndex === 9) {
     return 'title'
-  } else if (rowIndex === 3 || rowIndex === 7 || rowIndex === 15 || rowIndex === 24) {
+  } else if (rowIndex === 4 || rowIndex === 8 || rowIndex === 16 || rowIndex === 25) {
     return 'rest'
   }
 }
