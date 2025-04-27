@@ -1,7 +1,7 @@
 <template>
   <div class="keynote-speakers">
     <div class="title1 font-merri title">WDMD 2025 Workshop Keynotes</div>
-    <div class="title-tip">DSN 2024</div>
+    <div class="title-tip">DSN 2025</div>
 
     <div class="keynotes">
       <div class="keynote">
