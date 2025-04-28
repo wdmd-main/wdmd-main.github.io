@@ -33,7 +33,7 @@ interface MethodProps {
 const tableData: Data[] = [
   { time: '9:00-9:10', speaker: '', topic: 'Opening' },
   { time: '', speaker: '', topic: 'Keynote Session' },
-  { time: '9:10-9:40', speaker: 'TBD', topic: 'Keynote 1' },
+  { time: '9:10-9:40', speaker: 'Enrico Zio', topic: 'Keynote 1: AI for Intelligent Maintenance' },
   { time: '9:40-10:10', speaker: 'Yuxuan Liang', topic: 'Keynote 2: Foundation Models for Spatio-Temporal Data Mining' },
   { time: '10:10-10:30', speaker: '', topic: 'Coffe Break' },
   { time: '10:30-11:00', speaker: 'Ahmed M. A. Sayed', topic: 'Keynote 3: Advancing Decentralized AI: Scalable, Adaptive, and Client-Centric Learning Systems' },
@@ -45,24 +45,23 @@ const tableData: Data[] = [
   { time: '14:15-14:30', speaker: 'Yong Cao', topic: 'Cultural Reliability of LLMs: Can AI Truly Reflect Global Perspectives?' },
   { time: '14:30-14:45', speaker: 'Saibo Geng', topic: 'Generating Structured Outputs with Language Models: Evaluation and Studies' },
   { time: '14:45-15:00', speaker: 'Beiduo Chen', topic: `Understanding and Modeling Human Label Variation in LLM` },
-  { time: '15:00-15:15', speaker: 'TBD', topic: 'TBD' },
-  { time: '15:15-15:30', speaker: 'TBD', topic: 'TBD' },
+  { time: '15:00-15:15', speaker: '陈梅', topic: 'Optimal energy-efficient scheduling of flexible manufacturing systems based on Petri net simulation and mathematical' },
+  { time: '15:15-15:30', speaker: '徐玮骏', topic: 'Towards uncertainty-aware remaining useful life prediction' },
   { time: '15:30-15:40', speaker: '', topic: 'Coffe Break' },
-  { time: '15:40-15:50', speaker: 'TBD', topic: 'TBD' },
-  { time: '15:50-16:00', speaker: 'TBD', topic: 'TBD' },
-  { time: '16:00-16:10', speaker: 'TBD', topic: 'TBD' },
-  { time: '16:10-16:20', speaker: 'TBD', topic: 'TBD' },
-  { time: '16:20-16:30', speaker: 'TBD', topic: 'TBD' },
-  { time: '16:30-16:40', speaker: 'TBD', topic: 'TBD' },
-  { time: '16:40-16:50', speaker: 'TBD', topic: 'TBD' },
-  { time: '16:50-17:00', speaker: 'TBD', topic: 'TBD' },
-  { time: '17:00---', speaker: '', topic: 'Ending' },
+  { time: '15:40-15:50', speaker: '杜渐', topic: 'A knowledge-inspired physics-informed neural network for hydraulic transient simulation of liquid pipelines' },
+  { time: '15:50-16:00', speaker: '邓武进', topic: 'Multimodal explainable few-shot learning for trustworthy PHM operations in the smart manufacturing process' },
+  { time: '16:00-16:10', speaker: '高嘉衫', topic: 'Reinforcement learning for multi-agent with asynchronous missing information fusion method' },
+  { time: '16:10-16:20', speaker: '徐志强', topic: 'Research on PHM method based on deep learning technology' },
+  { time: '16:20-16:30', speaker: '王宗耀', topic: 'Predictive Maintenance Decision Marking for Critical Equipment in Industrial system Based on Remaining Useful Life Estimation' },
+  { time: '16:30-16:40', speaker: '刘子航', topic: 'Determination of performance-based design wind speed for long-span bridges using risk-targeted algorithm' },
+  { time: '16:40-16:50', speaker: '李司南', topic: 'Interpretable wavelet packet kernel-constrained convolutional neural network for bearing fault diagnosis' },
+  { time: '16:50---', speaker: '', topic: 'Ending' },
 ]
 
 const cellClassName = ({ rowIndex }: MethodProps) => {
   if (rowIndex === 1 || rowIndex === 9) {
     return 'title'
-  } else if (rowIndex === 4 || rowIndex === 8 || rowIndex === 16 || rowIndex === 25) {
+  } else if (rowIndex === 4 || rowIndex === 8 || rowIndex === 16 || rowIndex === 24) {
     return 'rest'
   }
 }
