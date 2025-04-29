@@ -31,20 +31,10 @@
         <div class="keynote-bio">
           <p>
             <span class="bold">Bio: </span>
-            <span class="italic">Enrico Zio received the MSc degree in nuclear engineering from Politecnico di Milano (1991) and in mechanical engineering from UCLA (1995), the Ph.D. degree in nuclear engineering from Politecnico di Milano (1996) and in probabilistic risk assessment at MIT (1998). He is full professor at the Centre for research on Risk and Crises (CRC) of Ecole de Mines, Paris, PSL University, Francem and at Politecnico di Milano, Italy, where he is also President of the AlumniAssociation and Vice-President of the Foundation.</span>
+            <span class="italic">Enrico Zio holds MSc degrees in nuclear engineering from Politecnico di Milano (1991) and mechanical engineering from UCLA (1995), as well as PhD degrees in nuclear engineering from Politecnico di Milano (1996) and probabilistic risk assessment from MIT (1998). He is a full professor at École des Mines Paris (PSL University) and Politecnico di Milano, where he also serves as President of the Alumni Association and Vice-President of the Foundation.</span>
           </p>
 
-          <p class="italic">He is adjoint professor at Tromso University in Norway, City University of Hong Kong, Harbin University in China, and IEEE and Sigma Xi Distinguished Lecturer.</p>
-
-          <p class="italic">In 2020, he has been awarded the prestigious Humboldt Research Award from the Alexander von Humboldt Foundation in Germany, one the world's most prestigious research awards across all scientific disciplines. The Award is granted in recognition of a researcher's entire achievements and Professor Zio has been awarded for his being a World leading scientist in Risk and Resilience Assessment, Safety Analysis and Reliability Engineering of complex systems and infrastructures. </p>
-
-          <p class="italic">He is author and co-author of several books and more than 600 papers on international journals, Chairman and Co-Chairman of several international Conferences, associate editor of several international journals and referee of more than 20.</p>
-
-          <p class="italic">His Google Scholar H-index is 107 and he is in the top 2% of the World scientists, according to Stanford ranking and 0.05% according to ScholarGPS.</p>
-
-          <p class="italic">In 2023, he has been appointed as Scientific Director of Research and Development of Datrix AI Solutions group, an AI company listed on Euronext Growth Milan, he has been elevated to the status of IEEE fellow “for contributions to safety and reliability engineering”, he has been elected fellow of Asia-Pacific Artificial Intelligence Association as “the top scientist with outstanding achievements in the area of reliability engineering and risk assessment”, he has been nominated Guest Professor at Harbin Engineering University.</p>
-
-          <p class="italic">In 2024 he has been recognized with the lifetime achievement award by the Society for Reliability and Safety for pioneering the application of AI and GA in support of Risk and Resilience Assessment of Complex Engineering Systems, elected Fellow of the Artificial Intelligence Industry Academy, awarded the Alan O. Plait 2024 Award for a tutorial on industrial applications of Artificial Intelligence at the Reliability and Maintainability Symposium, RAMS, presented the International System Safety Society (ISSS) Educator of the Year Award for outstanding achievement in and contribution to system safety education and the advancement of the state of knowledge in system safety, named Distinguished Research Fellow of the Institute of Nuclear Energy Safety Technology, in Hefei, China and Chair Professor at Harbin Institute of Technology, in Harbin, China, elected in the Italian Association of Technology and Engineering.</p>
+          <p class="italic">A world-leading expert in risk assessment and reliability engineering, Zio has received numerous accolades, including the Humboldt Research Award (2020) and IEEE Fellowship (2023). He has published over 600 papers, with an h-index of 107 (top 2% of scientists globally). In 2023-2024, he was appointed Scientific Director of Datrix AI Solutions, awarded lifetime achievement honors by the Society for Reliability and Safety, and named Chair Professor at Harbin Institute of Technology. His work pioneers AI applications in system safety and resilience.</p>
         </div>
       </div>
 
