@@ -33,11 +33,11 @@ interface MethodProps {
 const tableData: Data[] = [
   { time: '', speaker: '', topic: 'Keynote Session 1' },
   { time: '9:00-9:30', speaker: 'Enrico Zio', topic: 'Keynote 1: AI for Intelligent Maintenance' },
-  { time: '9:30-10:00', speaker: 'Yuxuan Liang', topic: 'Keynote 2: Foundation Models for Spatio-Temporal Data Mining' },
+  { time: '9:30-10:00', speaker: 'Yuxuan Liang', topic: 'Keynote 2: When Spatio-Temporal Data Meet Large Language Models' },
   { time: '10:00-10:30', speaker: 'Ahmed M. A. Sayed', topic: 'Keynote 3: Advancing Decentralized AI: Scalable, Adaptive, and Client-Centric Learning Systems' },
   { time: '10:30-11:00', speaker: '', topic: 'Coffee Break' },
   { time: '', speaker: '', topic: 'Keynote Session 2' },
-  { time: '11:00-11:30', speaker: 'Zheng Yang', topic: 'Keynote 4' },
+  { time: '11:00-11:30', speaker: 'Zheng Yang', topic: 'Keynote 4: Reliability challenges and opportunities for AI infra: from industry perspective' },
   { time: '11:30-11:45', speaker: 'Shengkun Cui', topic: 'Paper: Characterizing Modern GPU Resilience and Impact in HPC Systems: A Case Study of A100 GPUs' },
   { time: '11:45-12:30', speaker: '', topic: `Panel: How LLM Change the Nature of Reliability Engineering` },
   { time: '12:30-14:00', speaker: '', topic: 'Lunch Break' },
