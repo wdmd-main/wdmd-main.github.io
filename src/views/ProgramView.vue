@@ -52,7 +52,7 @@ const tableData: Data[] = [
   { time: '', speaker: '', topic: 'Short Presentation Session' },
   { time: '16:00-16:05', speaker: 'Mei Chen', topic: 'Optimal energy-efficient scheduling of flexible manufacturing systems based on Petri net simulation and mathematical programming' },
   { time: '16:05-16:10', speaker: 'Jian Du', topic: 'A knowledge-inspired physics-informed neural network for hydraulic transient simulation of liquid pipelines' },
-  { time: '16:10-16:15', speaker: 'Zihang Liu', topic: 'Determination of performance-based design wind speed for long-span bridges using risk-targeted algorithm' },
+  { time: '16:10-16:15', speaker: 'Wenyi Liao', topic: 'A human reliability analysis method based on STPA-IDAC and BN-SLIM for driver take-over in Level 3 automated driving' },
   { time: '16:15-16:20', speaker: 'Sinan Li', topic: 'Interpretable wavelet packet kernel-constrained convolutional neural network for bearing fault diagnosis' },
   { time: '16:20-16:25', speaker: 'Weijun Xu', topic: 'Towards uncertainty-aware remaining useful life prediction' },
   { time: '16:25-16:30', speaker: 'Wujin Deng', topic: 'Multimodal explainable few-shot learning for trustworthy PHM operations in the smart manufacturing process' },
